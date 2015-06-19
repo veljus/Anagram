@@ -29,7 +29,6 @@ private void openToolStripMenuItem_Click(object sender, EventArgs e)
                 char[] chr_OneWord = separated[i].ToCharArray();
                 Array.Sort(chr_OneWord);
                 string strOneWordSorted = new string(chr_OneWord);
-                // MessageBox.Show(strOneWordSorted);
                 if (strAnagramSorted == strOneWordSorted) int_No_Anagrams++;
             }
         }
